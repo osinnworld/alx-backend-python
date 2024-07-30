@@ -1,4 +1,7 @@
-T_PAYLOAD = [
+
+#!/usr/bin/env python3
+
+TEST_PAYLOAD = [
   (
     {"repos_url": "https://api.github.com/orgs/google/repos"},
     [
@@ -946,3 +949,4 @@ T_PAYLOAD = [
     ['dagger', 'kratu', 'traceur-compiler', 'firmata.py'],
   )
 ]
+
